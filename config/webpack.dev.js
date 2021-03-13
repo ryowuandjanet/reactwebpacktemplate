@@ -7,7 +7,15 @@ const common = require("./webpack.common");
 const devConfig = {
   mode: "development",
   devServer: {
-    port: 3000,
+    // for AWS CLOUD9
+    // compress: true,
+    // disableHostCheck: true,
+
+    // for PC
+    // open: true,             // Automatically open the browser
+    // hot: true,              // Automatically refresh the page whenever bundle.js 
+    host: process.env.IP,
+    port: process.env.PORT,
     contentBase: "../dist",
     open: "chrome",
     hot: true,
