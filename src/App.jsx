@@ -4,22 +4,9 @@ import "./App.css";
 import "./App.scss";
 
 function App() {
-  const [name, setName] = useState("");
   return (
     <div className="app">
-      <h1>
-        我是吳小毛
-        <img src={logo} width="25" alt="react logo" />
-      </h1>
-      <div>
-        <label htmlFor="name">Nombre: </label>
-        <input
-          id="name"
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </div>
+      <h1>在此開始輸入程式碼</h1>
     </div>
   );
 }
