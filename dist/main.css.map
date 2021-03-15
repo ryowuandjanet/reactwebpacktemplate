@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://react17-webpack5-configuration/./src/App.scss"],"names":[],"mappings":";AAGE,WACE,aAJS,C","file":"main.css","sourcesContent":["$labelColor: greenyellow;\r\n\r\n.app {\r\n  label {\r\n    color: $labelColor;\r\n  }\r\n}\r\n"],"sourceRoot":""}
